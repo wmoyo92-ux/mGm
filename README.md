@@ -20,6 +20,7 @@
     
     <!-- Navigation Bar -->
     <header class="shadow-lg sticky top-0 z-50 bg-white">
+        <!-- ... existing header code ... -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
                 <!-- Logo Section -->
@@ -54,7 +55,7 @@
                     <a href="#contact" class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-primary-red hover:bg-red-700 transition duration-300">
                         (951) 780-3300
                     </a>
-                    <a href="#" class="ml-4 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-secondary-green hover:bg-green-800 transition duration-300">
+                    <a href="https://www.solvhealth.com/c/mgrovemed" target="_blank" rel="noopener noreferrer" class="ml-4 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-secondary-green hover:bg-green-800 transition duration-300">
                         Save Your Spot
                     </a>
                 </div>
@@ -64,6 +65,7 @@
 
     <!-- Hero Section -->
     <section id="home" class="pt-16 pb-20 sm:pt-24 sm:pb-32 lg:pt-40 lg:pb-48 bg-gray-50">
+        <!-- ... existing hero section code ... -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900">
                 <span class="block color-primary-red">Urgent Care &</span>
@@ -83,7 +85,7 @@
             </div>
 
             <div class="mt-10 flex flex-wrap justify-center gap-4">
-                <a href="#" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg shadow-lg text-white bg-secondary-green hover:bg-green-800 transition duration-300 transform hover:scale-105">
+                <a href="https://www.solvhealth.com/c/mgrovemed" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg shadow-lg text-white bg-secondary-green hover:bg-green-800 transition duration-300 transform hover:scale-105">
                     Save Your Spot
                 </a>
                 <a href="#services" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-medium rounded-lg shadow-lg text-gray-700 bg-white hover:bg-gray-100 transition duration-300 transform hover:scale-105">
@@ -95,6 +97,7 @@
 
     <!-- Services Section -->
     <section id="services" class="py-16 sm:py-24 bg-white">
+        <!-- ... existing services section code ... -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h2 class="text-base color-primary-red font-semibold tracking-wide uppercase">Our Specialties</h2>
@@ -152,7 +155,7 @@
                     <h2 class="text-base color-primary-red font-semibold tracking-wide uppercase">Find Us</h2>
                     <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                         Your Local Clinic in Mission Grove
-                    </p>
+                    </Cypress_Task_A>
                     <p class="mt-4 text-lg text-gray-600">
                         MG Medical is dedicated to serving the Riverside community with convenient and high-quality medical services.
                     </p>
@@ -164,7 +167,8 @@
                             <div>
                                 <h4 class="font-bold text-gray-900">Address</h4>
                                 <p class="text-gray-600">191 Alessandro Blvd #9a, Riverside, CA 92508</p>
-                                <a href="https://maps.app.goo.gl/YourClinicMapLink" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 transition duration-150">(Get Directions)</a>
+                                <!-- UPDATED "Get Directions" Link -->
+                                <a href="https://maps.app.goo.gl/kJ9iiFocYQL1pe7S9" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-blue-600 hover:text-blue-800 transition duration-150">(Get Directions)</a>
                             </div>
                         </div>
 
@@ -190,14 +194,18 @@
                     </div>
                 </div>
 
-                <!-- Map Placeholder -->
+                <!-- Google Maps Embed -->
                 <div class="relative h-64 lg:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-secondary-green">
-                    <div class="w-full h-full bg-gray-200 flex items-center justify-center text-center p-4">
-                        <p class="text-gray-600 font-semibold">
-                            Map Placeholder (Google Maps Embed)<br>
-                            <span class="text-sm font-normal">Showing location of 191 Alessandro Blvd #9a, Riverside, CA 92508</span>
-                        </p>
-                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.458641113032!2d-117.3481068847889!3d33.9037469806461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dca6006121408b%3A0x6522c0c79316b8b8!2s191%20Alessandro%20Blvd%20%239a%2C%20Riverside%2C%20CA%2092508!5e0!3m2!1sen!2sus!4v1672956983577!5m2!1sen!2sus"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="absolute top-0 left-0 w-full h-full"
+                    ></iframe>
                 </div>
             </div>
         </div>
