@@ -41,38 +41,7 @@
             <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
                 <!-- Logo Section: Updated to match the provided 2.png logo -->
                 <div class="flex justify-start lg:w-0 lg:flex-1">
-                    <a href="#" class="flex items-center space-x-2">
-                        <!-- Logo Graphic (Detailed SVG based on uploaded 2.png) -->
-                        <div class="w-12 h-12 relative flex items-center justify-center">
-                            <svg class="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <!-- Red Cross Background (Color matching the newest logo upload: #C62828) -->
-                                <rect x="35" y="0" width="30" height="100" fill="#C62828"/>
-                                <rect x="0" y="35" width="100" height="30" fill="#C62828"/>
-                                
-                                <!-- Tree Silhouette (Gray-Green color matching the newest logo upload: #8B9482) -->
-                                <g transform="translate(50, 50) scale(0.6)">
-                                    <path fill="#8B9482" d="M-5 -25 L5 -25 L5 25 L-5 25 Z"/>
-                                    <!-- Tree crown and leaves (Simplified to match visual style) -->
-                                    <ellipse fill="#8B9482" cx="0" cy="-30" rx="30" ry="20"/>
-                                    <ellipse fill="#8B9482" cx="-25" cy="-10" rx="15" ry="10"/>
-                                    <ellipse fill="#8B9482" cx="25" cy="-10" rx="15" ry="10"/>
-                                    <circle fill="#8B9482" cx="-10" cy="15" r="5"/>
-                                    <circle fill="#8B9482" cx="10" cy="15" r="5"/>
-                                    <!-- Simplified circular leaves on cross arms (Green matching the newest logo upload: #6B8E23) -->
-                                    <circle fill="#6B8E23" cx="-25" cy="5" r="5"/>
-                                    <circle fill="#6B8E23" cx="-20" cy="15" r="5"/>
-                                    <circle fill="#6B8E23" cx="25" cy="5" r="5"/>
-                                    <circle fill="#6B8E23" cx="20" cy="15" r="5"/>
-                                </g>
-
-                                <!-- Text Labels -->
-                                <text x="1" y="47" font-size="6" fill="black" text-anchor="start">Empathy</text>
-                                <text x="99" y="47" font-size="6" fill="black" text-anchor="end">Grace</text>
-                                <text x="1" y="65" font-size="6" fill="black" text-anchor="start">Faith</text>
-                                <text x="99" y="65" font-size="6" fill="black" text-anchor="end">Hope</text>
-                                <text x="50" y="75" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Love</text>
-                            </svg>
-                        </div>
+                    <a href="#" class="flex items-center">
                         <div class="flex flex-col leading-none">
                             <span class="text-2xl font-bold color-primary-red">MISSION GROVE</span>
                             <span class="text-sm tracking-widest border-t border-secondary-green text-gray-700 pt-1">MEDICAL CORPORATION</span>
