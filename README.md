@@ -41,7 +41,8 @@
             <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
                 <!-- Logo Section: Updated to match the provided 2.png logo -->
                 <div class="flex justify-start lg:w-0 lg:flex-1">
-                    <a href="#" class="flex items-center">
+                    <a href="#" class="flex items-center space-x-3">
+                        <img src="logo.png" alt="Mission Grove Medical Corporation Logo" class="h-14 w-auto">
                         <div class="flex flex-col leading-none">
                             <span class="text-2xl font-bold color-primary-red">MISSION GROVE</span>
                             <span class="text-sm tracking-widest border-t border-secondary-green text-gray-700 pt-1">MEDICAL CORPORATION</span>
